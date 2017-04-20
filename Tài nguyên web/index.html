@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>http://getbootstrap.com.vn/examples/jumbotron/#</title><link rel="stylesheet" type="text/css" href="index_files/viewsource.css"></head><body id="viewsource" class="highlight" style="-moz-tab-size: 4" contextmenu="actions"><pre id="line1"><span></span><span class="doctype">&lt;!DOCTYPE html&gt;</span><span>
+<span id="line2"></span></span><span>&lt;<span class="start-tag">html</span> <span class="attribute-name">lang</span>="<a class="attribute-value">en</a>"&gt;</span><span>
+<span id="line3"></span>  </span><span>&lt;<span class="start-tag">head</span>&gt;</span><span>
+<span id="line4"></span>    </span><span>&lt;<span class="start-tag">meta</span> <span class="attribute-name">charset</span>="<a class="attribute-value">utf-8</a>"&gt;</span><span>
+<span id="line5"></span>    </span><span>&lt;<span class="start-tag">meta</span> <span class="attribute-name">http-equiv</span>="<a class="attribute-value">X-UA-Compatible</a>" <span class="attribute-name">content</span>="<a class="attribute-value">IE=edge</a>"&gt;</span><span>
+<span id="line6"></span>    </span><span>&lt;<span class="start-tag">meta</span> <span class="attribute-name">name</span>="<a class="attribute-value">viewport</a>" <span class="attribute-name">content</span>="<a class="attribute-value">width=device-width, initial-scale=1</a>"&gt;</span><span>
+<span id="line7"></span>    </span><span>&lt;<span class="start-tag">meta</span> <span class="attribute-name">name</span>="<a class="attribute-value">description</a>" <span class="attribute-name">content</span>="<a class="attribute-value"></a>"&gt;</span><span>
+<span id="line8"></span>    </span><span>&lt;<span class="start-tag">meta</span> <span class="attribute-name">name</span>="<a class="attribute-value">author</a>" <span class="attribute-name">content</span>="<a class="attribute-value"></a>"&gt;</span><span>
+<span id="line9"></span>    </span><span>&lt;<span class="start-tag">link</span> <span class="attribute-name">rel</span>="<a class="attribute-value">icon</a>" <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:http://getbootstrap.com.vn/assets/ico/favicon.ico">../../assets/ico/favicon.ico</a>"&gt;</span><span>
+<span id="line10"></span>
+<span id="line11"></span>    </span><span>&lt;<span class="start-tag">title</span>&gt;</span><span>Jumbotron Template for Bootstrap</span><span>&lt;/<span class="end-tag">title</span>&gt;</span><span>
+<span id="line12"></span>
+<span id="line13"></span>    </span><span class="comment">&lt;!-- Bootstrap core CSS --&gt;</span><span>
+<span id="line14"></span>    </span><span>&lt;<span class="start-tag">link</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:http://getbootstrap.com.vn/dist/css/bootstrap.min.css">../../dist/css/bootstrap.min.css</a>" <span class="attribute-name">rel</span>="<a class="attribute-value">stylesheet</a>"&gt;</span><span>
+<span id="line15"></span>
+<span id="line16"></span>    </span><span class="comment">&lt;!-- Custom styles for this template --&gt;</span><span>
+<span id="line17"></span>    </span><span>&lt;<span class="start-tag">link</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:http://getbootstrap.com.vn/examples/jumbotron/jumbotron.css">jumbotron.css</a>" <span class="attribute-name">rel</span>="<a class="attribute-value">stylesheet</a>"&gt;</span><span>
+<span id="line18"></span>
+<span id="line19"></span>    </span><span class="comment">&lt;!-- Just for debugging purposes. Don't actually copy these 2 lines! --&gt;</span><span>
+<span id="line20"></span>    </span><span class="comment">&lt;!--[if lt IE 9]&gt;&lt;script src="../../assets/js/ie8-responsive-file-warning.js"&gt;&lt;/script&gt;&lt;![endif]--&gt;</span><span>
+<span id="line21"></span>    </span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:http://getbootstrap.com.vn/assets/js/ie-emulation-modes-warning.js">../../assets/js/ie-emulation-modes-warning.js</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span>
+<span id="line22"></span>
+<span id="line23"></span>    </span><span class="comment">&lt;!-- IE10 viewport hack for Surface/desktop Windows 8 bug --&gt;</span><span>
+<span id="line24"></span>    </span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:http://getbootstrap.com.vn/assets/js/ie10-viewport-bug-workaround.js">../../assets/js/ie10-viewport-bug-workaround.js</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span>
+<span id="line25"></span>
+<span id="line26"></span>    </span><span class="comment">&lt;!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries --&gt;</span><span>
+<span id="line27"></span>    </span><span class="comment">&lt;!--[if lt IE 9]&gt;
+<span id="line28"></span>      &lt;script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"&gt;&lt;/script&gt;
+<span id="line29"></span>      &lt;script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+<span id="line30"></span>    &lt;![endif]--&gt;</span><span>
+<span id="line31"></span>  </span><span>&lt;/<span class="end-tag">head</span>&gt;</span><span>
+<span id="line32"></span>
+<span id="line33"></span>  </span><span>&lt;<span class="start-tag">body</span>&gt;</span><span>
+<span id="line34"></span>
+<span id="line35"></span>    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">navbar navbar-inverse navbar-fixed-top</a>" <span class="attribute-name">role</span>="<a class="attribute-value">navigation</a>"&gt;</span><span>
+<span id="line36"></span>      </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">container</a>"&gt;</span><span>
+<span id="line37"></span>        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">navbar-header</a>"&gt;</span><span>
+<span id="line38"></span>          </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">type</span>="<a class="attribute-value">button</a>" <span class="attribute-name">class</span>="<a class="attribute-value">navbar-toggle</a>" <span class="attribute-name">data-toggle</span>="<a class="attribute-value">collapse</a>" <span class="attribute-name">data-target</span>="<a class="attribute-value">.navbar-collapse</a>"&gt;</span><span>
+<span id="line39"></span>            </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>="<a class="attribute-value">sr-only</a>"&gt;</span><span>Toggle navigation</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>
+<span id="line40"></span>            </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>="<a class="attribute-value">icon-bar</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>
+<span id="line41"></span>            </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>="<a class="attribute-value">icon-bar</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>
+<span id="line42"></span>            </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>="<a class="attribute-value">icon-bar</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>
+<span id="line43"></span>          </span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line44"></span>          </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">class</span>="<a class="attribute-value">navbar-brand</a>" <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:http://getbootstrap.com.vn/examples/jumbotron/#">#</a>"&gt;</span><span>Project name</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line45"></span>        </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line46"></span>        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">navbar-collapse collapse</a>"&gt;</span><span>
+<span id="line47"></span>          </span><span>&lt;<span class="start-tag">form</span> <span class="attribute-name">class</span>="<a class="attribute-value">navbar-form navbar-right</a>" <span class="attribute-name">role</span>="<a class="attribute-value">form</a>"&gt;</span><span>
+<span id="line48"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">form-group</a>"&gt;</span><span>
+<span id="line49"></span>              </span><span>&lt;<span class="start-tag">input</span> <span class="attribute-name">type</span>="<a class="attribute-value">text</a>" <span class="attribute-name">placeholder</span>="<a class="attribute-value">Email</a>" <span class="attribute-name">class</span>="<a class="attribute-value">form-control</a>"&gt;</span><span>
+<span id="line50"></span>            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line51"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">form-group</a>"&gt;</span><span>
+<span id="line52"></span>              </span><span>&lt;<span class="start-tag">input</span> <span class="attribute-name">type</span>="<a class="attribute-value">password</a>" <span class="attribute-name">placeholder</span>="<a class="attribute-value">Password</a>" <span class="attribute-name">class</span>="<a class="attribute-value">form-control</a>"&gt;</span><span>
+<span id="line53"></span>            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line54"></span>            </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">type</span>="<a class="attribute-value">submit</a>" <span class="attribute-name">class</span>="<a class="attribute-value">btn btn-success</a>"&gt;</span><span>Sign in</span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line55"></span>          </span><span>&lt;/<span class="end-tag">form</span>&gt;</span><span>
+<span id="line56"></span>        </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span></span><span class="comment">&lt;!--/.navbar-collapse --&gt;</span><span>
+<span id="line57"></span>      </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line58"></span>    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line59"></span>
+<span id="line60"></span>    </span><span class="comment">&lt;!-- Main jumbotron for a primary marketing message or call to action --&gt;</span><span>
+<span id="line61"></span>    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">jumbotron</a>"&gt;</span><span>
+<span id="line62"></span>      </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">container</a>"&gt;</span><span>
+<span id="line63"></span>        </span><span>&lt;<span class="start-tag">h1</span>&gt;</span><span>Hello, world!</span><span>&lt;/<span class="end-tag">h1</span>&gt;</span><span>
+<span id="line64"></span>        </span><span>&lt;<span class="start-tag">p</span>&gt;</span><span>This
+ is a template for a simple marketing or informational website. It 
+includes a large callout called a jumbotron and three supporting pieces 
+of content. Use it as a starting point to create something more unique.</span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+<span id="line65"></span>        </span><span>&lt;<span class="start-tag">p</span>&gt;</span><span></span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">class</span>="<a class="attribute-value">btn btn-primary btn-lg</a>" <span class="attribute-name">role</span>="<a class="attribute-value">button</a>"&gt;</span><span>Learn more <span class="entity"><span>&amp;</span>raquo;</span></span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span></span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+<span id="line66"></span>      </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line67"></span>    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line68"></span>
+<span id="line69"></span>    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">container</a>"&gt;</span><span>
+<span id="line70"></span>      </span><span class="comment">&lt;!-- Example row of columns --&gt;</span><span>
+<span id="line71"></span>      </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">row</a>"&gt;</span><span>
+<span id="line72"></span>        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">col-md-4</a>"&gt;</span><span>
+<span id="line73"></span>          </span><span>&lt;<span class="start-tag">h2</span>&gt;</span><span>Heading</span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+<span id="line74"></span>          </span><span>&lt;<span class="start-tag">p</span>&gt;</span><span>Donec
+ id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac 
+cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+ sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec 
+sed odio dui. </span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+<span id="line75"></span>          </span><span>&lt;<span class="start-tag">p</span>&gt;</span><span></span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">class</span>="<a class="attribute-value">btn btn-default</a>" <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:http://getbootstrap.com.vn/examples/jumbotron/#">#</a>" <span class="attribute-name">role</span>="<a class="attribute-value">button</a>"&gt;</span><span>View details <span class="entity"><span>&amp;</span>raquo;</span></span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span></span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+<span id="line76"></span>        </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line77"></span>        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">col-md-4</a>"&gt;</span><span>
+<span id="line78"></span>          </span><span>&lt;<span class="start-tag">h2</span>&gt;</span><span>Heading</span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+<span id="line79"></span>          </span><span>&lt;<span class="start-tag">p</span>&gt;</span><span>Donec
+ id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac 
+cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+ sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec 
+sed odio dui. </span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+<span id="line80"></span>          </span><span>&lt;<span class="start-tag">p</span>&gt;</span><span></span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">class</span>="<a class="attribute-value">btn btn-default</a>" <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:http://getbootstrap.com.vn/examples/jumbotron/#">#</a>" <span class="attribute-name">role</span>="<a class="attribute-value">button</a>"&gt;</span><span>View details <span class="entity"><span>&amp;</span>raquo;</span></span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span></span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+<span id="line81"></span>       </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line82"></span>        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">col-md-4</a>"&gt;</span><span>
+<span id="line83"></span>          </span><span>&lt;<span class="start-tag">h2</span>&gt;</span><span>Heading</span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+<span id="line84"></span>          </span><span>&lt;<span class="start-tag">p</span>&gt;</span><span>Donec
+ sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget 
+quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, 
+tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum 
+massa justo sit amet risus.</span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+<span id="line85"></span>          </span><span>&lt;<span class="start-tag">p</span>&gt;</span><span></span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">class</span>="<a class="attribute-value">btn btn-default</a>" <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:http://getbootstrap.com.vn/examples/jumbotron/#">#</a>" <span class="attribute-name">role</span>="<a class="attribute-value">button</a>"&gt;</span><span>View details <span class="entity"><span>&amp;</span>raquo;</span></span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span></span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+<span id="line86"></span>        </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line87"></span>      </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line88"></span>
+<span id="line89"></span>      </span><span>&lt;<span class="start-tag">hr</span>&gt;</span><span>
+<span id="line90"></span>
+<span id="line91"></span>      </span><span>&lt;<span class="start-tag">footer</span>&gt;</span><span>
+<span id="line92"></span>        </span><span>&lt;<span class="start-tag">p</span>&gt;</span><span><span class="entity"><span>&amp;</span>copy;</span> Company 2014</span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+<span id="line93"></span>      </span><span>&lt;/<span class="end-tag">footer</span>&gt;</span><span>
+<span id="line94"></span>    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span> </span><span class="comment">&lt;!-- /container --&gt;</span><span>
+<span id="line95"></span>
+<span id="line96"></span>
+<span id="line97"></span>    </span><span class="comment">&lt;!-- Bootstrap core JavaScript
+<span id="line98"></span>    ================================================== --&gt;</span><span>
+<span id="line99"></span>    </span><span class="comment">&lt;!-- Placed at the end of the document so the pages load faster --&gt;</span><span>
+<span id="line100"></span>    </span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span>
+<span id="line101"></span>    </span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:http://getbootstrap.com.vn/dist/js/bootstrap.min.js">../../dist/js/bootstrap.min.js</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span>
+<span id="line102"></span>  </span><span>&lt;/<span class="end-tag">body</span>&gt;</span><span>
+<span id="line103"></span></span><span>&lt;/<span class="end-tag">html</span>&gt;</span><span>
+<span id="line104"></span></span></pre><menu type="context" id="actions"><menuitem id="goToLine" label="Go to Line…" accesskey="L"></menuitem><menuitem id="wrapLongLines" label="Wrap Long Lines" type="checkbox"></menuitem><menuitem id="highlightSyntax" label="Syntax Highlighting" type="checkbox" checked="true"></menuitem></menu></body></html>

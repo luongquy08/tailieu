@@ -1,0 +1,10 @@
+Switch#write erase
+Swithch#delete vlan.dat
+Switch#reload
+Switch#copy running-config startup-config
+quangtuyen88.wordpress.com
+
+Switch(congfig)#interface f0/20
+Switch(congfig-if)#
+Switch(congfig-if)#switchport mode trunk
+

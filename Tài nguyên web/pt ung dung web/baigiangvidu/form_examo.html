@@ -1,0 +1,85 @@
+
+
+
+<html><head><title>form examp</title></head>
+<form name='myform' method='get' action='http://www.uet.vnu.edu.vn/app/test.exe' style='font-family: Verdana; font-size: 18pt'>
+<h3>Form Example</h3><hr />
+<center>
+<table width='80%' border='0' style='font-family: Verdana; font-size: 18pt'>
+<tr>
+	<td width='40%'>Your Name:</td>
+	<td width='60%'><input type='text' name='hoten'  onFocus='select()' 
+	size='40' maxlength='32' value='Nhap ho ten vao day'
+	style='font-family: Verdana; font-size: 18pt' /></td>
+</tr>
+<tr>
+	<td>Gioi tinh:</td>
+	<td><input type='radio' name='gt' value='0' /> Nam 
+        <input type='radio' name='gt' value='1' checked /> Nu
+	</td>
+</tr>
+<tr>
+	<td>So thich:</td>
+	<td>
+		<input type='checkbox' name='an' value='1' /> An ngon 
+		<input type='checkbox' name='mac' value='1' /> Mac dep 
+		<input type='checkbox' name='xe' value='1' /> Xe hoi 
+		<input type='checkbox' name='nha' value='1' /> Nha lau
+	</td>
+</tr>
+<tr>
+	<td>Que quan:</td>
+	<td><select name='tinh' style='font-family: Verdana; font-size: 18pt' >
+		<option value='01'>Ha Noi</option>
+		<option value='02'>Hai Phong</option>
+		<option value='03'>Hai Duong</option>
+		<option value='04'>Hung Yen</option>
+		<option value='05'>Quang Ninh</option>
+		<option value='06'>Lang Son</option>
+		<option value='07'>Cao Bang</option>
+		<option value='08'>Bac Can</option>
+		<option value='09' selected>Thai Nguyen</option>
+		<option value='10'>Bac Giang</option>
+	</select></td>
+</tr>
+<tr>
+	<td valign='top'>Nhung noi da song:</td>
+	<td><select name='tinh' style='font-family: Verdana; font-size: 18pt' multiple >
+	<option value='01'>Ha Noi</option>
+	<option value='02'>Hai Phong</option>
+	<option value='03'>Hai Duong</option>
+	<option value='04'>Hung Yen</option>
+	<option value='05'>Quang Ninh</option>
+	<option value='06'>Lang Son</option>
+	<option value='07'>Cao Bang</option>
+	<option value='08'>Bac Can</option>
+	<option value='09' selected>Thai Nguyen</option>
+	<option value='10'>Bac Giang</option>
+	</select>
+	</td>
+</tr>
+<tr>
+	<td>Tom tat ve ban:</td>
+	<td><textarea name='tomtat' style='font-family: Verdana; font-size: 18pt' onFocus='select()'>
+	Hay noi tom tat ve ban than
+	</textarea></td>
+</tr>
+<tr>
+	<td>Mat khau: </td>
+	<td><input type='password' name='mk' />
+		<input type='hidden' name='std_no' value='15' />
+	</td>
+</tr>
+<tr>
+	<td colspan='2' align='center'>
+		<input type='submit' name='cmd' value='Ok' style='font-family: Verdana; font-size: 18pt' />
+		<input type='reset' name='cmd' value='Reset' style='font-family: Verdana; font-size: 18pt' />
+		<input type='button' name='cmd' value='Check'
+		onClick = 'check_logic ()' 
+		style='font-family: Verdana; font-size: 18pt' />
+	</td>
+</tr>
+</table>
+</form></html>
+
+

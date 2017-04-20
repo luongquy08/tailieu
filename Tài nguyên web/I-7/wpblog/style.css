@@ -1,0 +1,31 @@
+/*
+Theme Name: MDB Blog
+Theme URI: http://www.mdbootstrap.com 
+Description: This is outstanding WP Blog theme developed on Material Design for Bootstrap 4
+Version: 1
+Author: MDBootstrap.com
+Author URI: http://www.mdbootstrap.com
+*/
+ 
+main {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}             
+
+.cat-item {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.current-cat{
+  z-index: 2;
+  color: #fff;
+  background-color: #0275d8;
+  border-color: #0275d8;
+}
+.current-cat>a{
+  color: #fff;  
+}
